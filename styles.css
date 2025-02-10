@@ -10,6 +10,8 @@
   --cor-de-fundo: #00030c;
   --fonte-principal: "Inter";
   --botao-azul-efeito: #3c92fa;
+  --botao-cinza-efeito: #a7b2c09f;
+  --text-red-efeito: red;
 }
 
 body {
@@ -103,6 +105,28 @@ body {
   margin: 5em 0;
 }
 
+.dispositivos__lista li {
+  transition: 0.3s ease-in-out;
+  text-align: center;
+}
+
+.dispositivos__lista img {
+  transition: 0.3s ease-in-out;
+}
+
+.dispositivos__lista h3 {
+  transition: 0.3s ease-in-out;
+}
+
+.dispositivos__lista li:hover img {
+  filter: brightness(0) saturate(100%) invert(31%) sepia(98%) saturate(752%)
+    hue-rotate(201deg) brightness(99%) contrast(101%);
+}
+
+.dispositivos__lista li:hover h3 {
+  color: var(--botao-azul-efeito);
+}
+
 .dispositivos {
   text-align: center;
 }
@@ -146,10 +170,10 @@ body {
 }
 
 .lista__link a:active {
-  color: purple;
+  color: var(--text-red-efeito);
 }
 
 .container__botao:hover {
-  background-color: var(--botao-azul-efeito);
+  background-color: var(--botao-cinza-efeito);
   color: var(--cor-de-fundo);
 }
