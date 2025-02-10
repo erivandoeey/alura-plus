@@ -1,4 +1,4 @@
-# Alura Plus
+# Landing Page Alura
 
 Este projeto foi desenvolvido no curso da **Alura** e é uma landing page para a assinatura do Alura+ e Alura Língua, oferecendo um design responsivo e moderno.
 
