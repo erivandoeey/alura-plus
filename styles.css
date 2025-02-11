@@ -328,6 +328,18 @@ body {
   margin-top: 1em;
 }
 
+/* .lista__link a {
+  text-decoration: none;
+  color: var(--branco-principal);
+  margin-left: 1em;
+  &:hover {
+    color: var(--botao-azul);
+  }
+  &:active {
+    color: var(--text-red-efeito);
+  }
+} */
+
 .lista__link a {
   text-decoration: none;
   color: var(--branco-principal);
